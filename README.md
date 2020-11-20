@@ -9,7 +9,7 @@ To debug requests in the [requests](https://requests.readthedocs.io/en/master/_m
 import logging
 import http.client as http_client
 
-# initialize logger - add to __init__ for a class or just to the top of a classes file
+# initialize logger - add to __init__ for a class or just to the top of a classless file
 http_client.HTTPConnection.debuglevel = 1
 logging.basicConfig()
 logging.getLogger().setLevel(logging.DEBUG)
