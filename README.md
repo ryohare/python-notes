@@ -5,7 +5,7 @@ Notes on python software dev of stuff I always end up googling over and over aga
 To debug requests in the [requests](https://requests.readthedocs.io/en/master/_modules/requests/api) logging can be enabled to capture the raw request w/o the need of a MITM proxy.
 
 ```python
-# import logging and http_client cless
+# import logging and http_client class
 import logging
 import http.client as http_client
 
